@@ -6,7 +6,7 @@
 nextcloud:
   php_version: php73
   root: /usr/local/www/nextcloud/
-  data: /data/nextcloud
+  data: /mnt/data/nextcloud
   cron_type: cron
   url: https://nextcloud.xxx.org
   domain: nextcloud.xxx.org
@@ -36,9 +36,9 @@ nextcloud:
      - key: mail_smtpmode
        value: smtp
      - key: datadirectory
-       value: /data/nextcloud/data
+       value: /mnt/data/nextcloud/data
      - key: apps_paths 0 path
-       value: /data/nextcloud/apps
+       value: /mnt/data/nextcloud/apps
      - key: apps_paths 0 writable 
        value: true
        type: boolean
