@@ -8,16 +8,17 @@ nextcloud:
   root: /usr/local/www/nextcloud/
   data: /mnt/data/nextcloud
   cron_type: cron
-  url: https://nextcloud.xxx.org
-  domain: nextcloud.xxx.org
+  url: https://nextcloud.shenrs.eu
+  domain: nextcloud.shenrs.eu
   db_type: mysql
   db_name: nextcloud
-  db_host: my.pghost.lan
-  db_user: nextcloud
+  db_host: 10.192.0.11
+  db_user: root
+  db_pass: 'srss97zb8'
   admin_user: admin
   admin_password: admin
-  mail_smtphost: smtp.xxx.org
-  mail_domain: xxx.org
+  mail_smtphost: smtp.shenrs.eu
+  mail_domain: shenrs.eu
   config:
     system:
      - key: redis host
@@ -26,13 +27,13 @@ nextcloud:
        value: 6379
        type: integer
      - key: overwrite.cli.url
-       value: https://nextcloud.xxx.org
+       value: https://nextcloud.shenrs.eu
      - key: trusted_domains 0
-       value: nextcloud.xxx.org
+       value: nextcloud.shenrs.eu
      - key: mail_smtphost
-       value: smtp.xxx.org
+       value: smtp.shenrs.eu
      - key: mail_domain
-       value: xxx.org
+       value: shenrs.eu
      - key: mail_smtpmode
        value: smtp
      - key: datadirectory
