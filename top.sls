@@ -5,3 +5,6 @@
 
   'nextcloud*':
      - nextcloud
+
+  'mysql*':
+     - mysql
