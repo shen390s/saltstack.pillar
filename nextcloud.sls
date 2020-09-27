@@ -10,7 +10,7 @@ nextcloud:
   cron_type: cron
   url: https://nextcloud.xxx.org
   domain: nextcloud.xxx.org
-  db_type: pgsql
+  db_type: mysql
   db_name: nextcloud
   db_host: my.pghost.lan
   db_user: nextcloud
