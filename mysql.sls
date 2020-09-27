@@ -1,3 +1,2 @@
 mysql:
-  root:
-    passwd: 'srss97zb8'
+  admin_passwd: 'srss97zb8'
