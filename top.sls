@@ -4,7 +4,11 @@
      - default
 
   'nextcloud*':
+     - mysql
      - nextcloud
+
+  'phabricator*':
+     - mysql
 
   'mysql*':
      - mysql
