@@ -4,7 +4,7 @@
 # - Nextcloud forbid symlinks for the data directory
 
 nextcloud:
-  php_version: php73
+  php_version: php74
   root: /usr/local/www/nextcloud/
   data: /mnt/data/nextcloud
   cron_type: cron
