@@ -14,5 +14,3 @@
   'mysql*':
      - mysql
 
-  'work*':
-     - default
